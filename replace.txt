@@ -1,0 +1,17 @@
+[filter_pre]
+count=6
+pre1=编辑词条
+post1=
+pre2=目录<span>[隐藏]
+post2=
+pre3=楷体
+post3=
+pre4=黑体
+post4= 
+pre5=加入收藏
+post5=
+pre6=化工
+post6=工业与化料
+[fileter_pre_post]
+pre_count=100
+post_count=200

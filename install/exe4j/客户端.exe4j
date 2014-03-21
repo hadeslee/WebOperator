@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="3.1.4">
+  <directoryPresets config="E:/Java/Hades/nbProject/2009/TestProject" />
+  <application name="webPageOperator" distributionSourceDir="E:/Java/Hades/nbProject/2009/TestProject/WebPageOperator/build" />
+  <executable name="Operator" type="2" iconSet="true" iconFile="E:/build/龙凤/icon/view.ICO" executableDir="." redirectStderr="false" stderrFile="error.log" redirectStdout="false" stdoutFile="output.log" failOnStderrOutput="true" executableMode="1" changeWorkingDirectory="true" workingDirectory="." singleInstance="true" serviceStartType="2" serviceDependencies="" serviceDescription="" jreLocation="">
+    <messageSet language="English" />
+    <versionInfo include="false" fileVersion="" companyName="" fileDescription="" legalCopyright="" productVersion="" internalName="" />
+  </executable>
+  <splashScreen show="false" autoOff="true" alwaysOnTop="true" width="0" height="0" bitmapFile="">
+    <text>
+      <statusLine x="20" y="20" text="" font="Arial" fontSize="8" fontColor="0,0,0" fontWeight="500" />
+      <versionLine x="20" y="40" text="version %VERSION%" font="Arial" fontSize="8" fontColor="0,0,0" fontWeight="500" />
+    </text>
+  </splashScreen>
+  <java mainClass="com.hadeslee.webpage.ui.Main" vmParameters="" arguments="-Xmx256m" allowVMPassthroughParameters="true" minVersion="1.6" maxVersion="" preferredVM="" allowBetaVM="true" jdkOnly="false">
+    <searchSequence>
+      <directory location="./jre" />
+      <registry />
+      <envVar name="JAVA_HOME" />
+      <envVar name="JDK_HOME" />
+    </searchSequence>
+    <classPath>
+      <archive location="../dist/WebPageOperator.jar" failOnError="true" />
+      <archive location="../dist/lib/apache-mime4j-0.6.jar" failOnError="true" />
+      <archive location="../dist/lib/commons-codec-1.3.jar" failOnError="true" />
+      <archive location="../dist/lib/commons-logging-1.1.1.jar" failOnError="true" />
+      <archive location="../dist/lib/httpclient-4.0.jar" failOnError="true" />
+      <archive location="../dist/lib/httpcore-4.0.1.jar" failOnError="true" />
+      <archive location="../dist/lib/httpmime-4.0.jar" failOnError="true" />
+      <archive location="../dist/lib/liquidlnf.jar" failOnError="true" />
+    </classPath>
+    <nativeLibraryDirectories />
+  </java>
+  <includedFiles />
+</exe4j>
+
