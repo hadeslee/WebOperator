@@ -28,7 +28,7 @@ public abstract class AbstractSearcher implements Serializable {
     protected List<Article> content = new ArrayList<Article>();//搜到的关键字列表
     protected boolean done;//是否搜索完成
     private boolean canceled;//是否被取消了
-    private static Pattern p = Pattern.compile("</?a[^>]*>", Pattern.DOTALL | Pattern.CASE_INSENSITIVE);
+    private static final Pattern p = Pattern.compile("</?a[^>]*>", Pattern.DOTALL | Pattern.CASE_INSENSITIVE);
     protected static final Logger LOG = Logger.getLogger(AbstractSearcher.class.getName());
 
     protected AbstractSearcher(String keyword) {
