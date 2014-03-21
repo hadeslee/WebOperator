@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 一个页面的代表对象，此对象都有默认值，改变一下对象
+ * 一个页面的代表对象，此对象都有默认值，改变一下对象，应该是没有错的
  * @author Hadeslee
  */
 public class WebPage implements Serializable {
